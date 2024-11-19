@@ -4,7 +4,7 @@ format:
     mermaid-format: svg
 ---
 
-:::{#fig-intro-diagram}
+::: {#fig-mermaid-single}
 
 ```{mermaid}
 flowchart TD
@@ -12,5 +12,4 @@ flowchart TD
 ```
 
 This is a figure.
-
 :::

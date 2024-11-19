@@ -1,0 +1,29 @@
+---
+format:
+  gfm:
+    mermaid-format: svg
+---
+
+::: {#fig-mermaid-multi layout-ncol=3}
+
+```{mermaid}
+flowchart TD
+  A[Behavioural state] --> B[Behavioural episodes]
+```
+
+```{mermaid}
+flowchart TD
+  A[Behavioural state] --> B[Behavioural episodes]
+  C[Context] -.-> A & B
+```
+
+```{mermaid}
+flowchart TD
+  A[Behavioural state] --> B[Behavioural episodes]
+  C[Context, Light] -.-> A & B
+  D[Context, Time] -.-> A & B
+```
+
+This is a figure.
+
+:::

@@ -1,9 +1,28 @@
 ---
 title: "Main"
-format: html
+format: 
+  html:
+    theme: cosmo
+  gfm:
+    mermaid-format: svg
 editor: source
 ---
 
-## Include Mermaid
+# Include through md
 
 {{< include main.md >}}
+
+
+# Include qmd directly
+
+{{< include mermaid.qmd >}}
+
+# Embed mermaid div
+## Single
+
+{{< embed mermaid-single.qmd#fig-mermaid-single >}}
+
+## Multi
+Un-commenting out the next line breaks the document rendering:
+
+<!-- {{< embed mermaid-multi-embed.qmd#fig-mermaid-multi >}} -->

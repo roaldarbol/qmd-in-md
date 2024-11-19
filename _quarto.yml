@@ -11,26 +11,8 @@ book:
   chapters:
     - index.qmd
 
-# format:
-#   html:
-#     theme: cosmo
-#     number-depth: 2
-#     cover-image: cover.jpg
-#     filters:
-#       - section-bibliographies
-#       - pdf-to-image
-#   docx:
-#     toc: true
-#     number-sections: true
-#   pdf:
-#     documentclass: scrreprt
-#     toc: true
-#     lof: true
-#     lot: true
-#     include-in-header:
-#       - text: |
-#           \usepackage{gensymb}
-#           \usepackage{multirow}
-  # typst:
-  #   toc: true
-  #   section-numbering: 1.1.a
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
