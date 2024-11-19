@@ -6,4 +6,4 @@ editor: source
 
 ## Include Mermaid
 
-{{< include mermaid.qmd >}}
+{{< include main.md >}}
