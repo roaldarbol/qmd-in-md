@@ -1,0 +1,9 @@
+---
+title: "Main"
+format: html
+editor: source
+---
+
+## Include Mermaid
+
+{{< include mermaid.qmd >}}
